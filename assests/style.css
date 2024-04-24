@@ -1,0 +1,133 @@
+body{
+    background-color: #011e36;
+    background-image:
+    radial-gradient(white, #011e36 2px, transparent 40px),
+    radial-gradient(white, #011e36 1px, transparent 30px),
+    radial-gradient(white, #011e36 2px, transparent 40px),
+    radial-gradient(white, #011e36 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+    display: grid;
+    gap: 100px;
+}
+.wellfleet-regular {
+    font-family: "Wellfleet", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+#content{
+    display: grid;
+    place-items: center;
+}
+div{
+    margin: 10px;
+}
+.side{
+    position: fixed;
+    left: 0;
+    top: 20.6vh;
+    height: 27.9vh;
+    width:6vw ;
+    background-color: aliceblue;
+    display: grid;
+    border-radius: 10px;
+}
+#head{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    width: 100vw;
+    height: 12.6vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 30px;
+    margin: 0;
+}
+
+.imgs{
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+    background-color: azure;
+    margin: 1.5em;
+    height: 10rem;
+    width: 15rem;
+    font-size: 25px;
+    font-weight:bolder;
+}
+img{
+    height: 1em;
+    width: 1em;
+}
+.size{
+    transition: transform .4s;
+}
+.size:hover{
+    transform: scale(1.1);
+}
+
+#abt{
+    position: fixed;
+    right: 0;
+    font-size: 15px;
+}
+a{
+    padding: 10px;
+    text-decoration-line: none;
+    color: #011e36;
+}
+#logo{
+    padding: 10px;
+}
+#main{
+    text-align: center;
+    font-size: 100px;
+}
+#another{
+    margin-top: 10%;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+#other{
+    font-size: 50px;
+}
+#andonemore{
+    color: white;
+    display: grid;
+    place-items: center;
+}
+#other2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#other2>div>img{
+    height: 300px;
+    width: 300px;
+}
+#head>div{
+    color: #011e36;
+    display: flex;
+    align-items: center;
+}
+#other2>div{
+    width: 500px;
+    text-align: center;
+}
+.vis{
+    visibility: hidden;
+}
+#full{
+    left: 3.5%;
+}
+#cont{
+    height: 50px;
+    width: 50px;
+    top: 15.6vh;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
